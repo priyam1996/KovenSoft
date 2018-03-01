@@ -5,4 +5,35 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="title_activity_solutions">SolutionsActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_text_1">Mobile Solutions</string>
+    <string name="tab_text_2">Network Soluiotns</string>
+    <string name="tab_text_3">Enterprise Solutions</string>
+    <string name="text_mobile">Mobile Solutions:</string>
+    <string name="mobile_image_content_description">Mobile Solutions</string>
+    <string name="mobile_description">No matter what your mobile dreams are, Kovensoft can make them come true.
+        We understand the complex usability issues that are involved in mobile sites and applications,
+        as well as the need for a consistent brand across platforms.
+        Our mobile solutions consultants can help you take your Mobile business.
+        We can formulate and execute a cost-effective strategy for your mobile solution that
+        includes compatibility between mobile browsers, devices and platforms,
+        optimized usability and real-time integration with CMS, ERP, CRM,
+        Payment Gateways or any kind of existing / new Backend System.</string>
+    <string name="title_network">Network Solutions :</string>
+    <string name="image_network_description">Network Solutions</string>
+    <string name="description_network">As the data center environment expands, companies must find new ways to improve efficiency.
+        To increase performance and improve the availability of data management networks,
+        enterprises are migrating the overall system configuration from the traditional direct server-to-storage
+        connection to a switched shared server-to-storage connection via fiber-optic cabling.
+Networks are the backbone of your business and periodic evaluation is
+        critical to accommodate new applications and to keep pace with business requirements.
+        In today's business environment, enabling your network to work with multiple communication channels is paramount.
+        Green IT offers design, integration and management services for customers who require flexible,
+        robust and resilient network infrastructures. Our end-to-end network integration solutions help
+        customers with complex network upgrades and mergers, expansions, or new deployments involving routers,
+        switches, Firewalls, servers, and other network equipment.\n </string>
+    <string name="description_network1">NET OPTIMIZATION SOLUTION\nSCALABILITY\nAVAILABILITY\nSECURITY\nPERFORMANCE</string>
+
+
 </resources>
