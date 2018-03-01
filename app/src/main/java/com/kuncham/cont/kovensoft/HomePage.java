@@ -80,17 +80,19 @@ public class HomePage extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_home) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_aboutus) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_services) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_solutions) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_clients) {
 
-        } else if (id == R.id.nav_send) {
+        }else if (id == R.id.nav_contactus) {
+
+        }else if (id == R.id.nav_share) {
 
         }
 
