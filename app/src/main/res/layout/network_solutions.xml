@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageNetwork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/image_network_description"
+        android:src="@drawable/network_solutions" />
+
+    <TextView
+        android:id="@+id/descriptionNetwork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageNetwork"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        tools:text="@string/description_network" />
+
+    <TextView
+        android:id="@+id/descriptionNetwork1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptionNetwork"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="20sp"
+        tools:text="@string/description_network1" />
+
+</RelativeLayout>
+
+</ScrollView>
