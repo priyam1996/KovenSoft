@@ -135,6 +135,9 @@ public class HomePage extends AppCompatActivity
 
         }else if (id == R.id.nav_contactus) {
 
+            Intent contactIntent = new Intent(this,ContactUs.class);
+            startActivity(contactIntent);
+
         }else if (id == R.id.nav_share) {
 
         }
