@@ -71,7 +71,7 @@ public class HomePage extends AppCompatActivity
             @Override
             public void onClick(View v) {
 
-                Intent i=new Intent(HomePage.this,Aboutus.class);
+                Intent i=new Intent(HomePage.this,About.class);
                 startActivity(i);
             }
         });
@@ -130,7 +130,13 @@ public class HomePage extends AppCompatActivity
 
         } else if (id == R.id.nav_clients) {
 
+            Intent clientsIntent=new Intent(this,Clients.class);
+            startActivity(clientsIntent);
+
         }else if (id == R.id.nav_contactus) {
+
+            Intent contactIntent = new Intent(this,ContactUs.class);
+            startActivity(contactIntent);
 
         }else if (id == R.id.nav_share) {
 

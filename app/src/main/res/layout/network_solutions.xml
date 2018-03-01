@@ -27,7 +27,7 @@
         android:layout_below="@id/imageNetwork"
         android:layout_marginLeft="20sp"
         android:layout_marginRight="20sp"
-        tools:text="@string/description_network" />
+        android:text="@string/description_network" />
 
     <TextView
         android:id="@+id/descriptionNetwork1"
@@ -37,7 +37,7 @@
         android:layout_marginLeft="20sp"
         android:layout_marginRight="20sp"
         android:layout_marginBottom="20sp"
-        tools:text="@string/description_network1" />
+        android:text="@string/description_network1" />
 
 </RelativeLayout>
 
