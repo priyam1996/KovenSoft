@@ -152,6 +152,16 @@ We keep a closer eye of the changing world, anticipate needs and seize opportuni
         Training and development is a vital part of human resource development. It is assuming an ever-important role as a result of the advancement of technology that has led to increased competition, increased expectations of customer quality and service and a subsequent need to reduce costs. It is also more important globally to prepare workers for new jobs. In the current wording, we will focus more on the emerging need for training and development, its implications for individuals and employers.
     </string>
 
+    <string name="image_enterprise_description">Enterprise Solutions</string>
+    <string name="description_enterprise">Enterprise solutions are software applications that enable people
+        to access and manage real-time information and transaction processes throughout an organization.
+        Our business solutions help our customers achieve high performance.
+        Transaction Processing and Decision Support Systems form the backbone of Operations and Analysis.
+        To maintain and enhance their competitive advantage to provide better value to customers,
+        companies invest substantial capital and effort in creating these systems.\n \n
+        According to research by analysts, Enterprise Resource Planning (ERP) is not being used as widely as it should be.\n \n
+        From the point of view of a company, the key objective of making investments in packaged applications
+        is to derive benefits and business advantages \n</string>
     <string name="contact_info">Contact Info</string>
     <string name="contact_image">Contact Head image</string>
     <string name="contact_info_text">\t \t \t \t \t Thank you for your interest with Koven Soft Solutions. To get in touch with us kindly fill the form or find the contact information of our offices listed below.</string>
