@@ -26,13 +26,42 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".About" />
+        <activity android:name=".About"
+            android:label="About Us"
+            android:parentActivityName=".HomePage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomePage" />
+
+        </activity>
         <activity
             android:name=".SolutionsActivity"
             android:label="Solutions"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ContactUs" />
-        <activity android:name=".Clients"></activity>
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".HomePage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomePage" />
+
+        </activity>
+
+        <activity android:name=".ContactUs"
+            android:label="Contact Us"
+            android:parentActivityName=".HomePage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomePage" />
+
+        </activity>
+
+        <activity android:name=".Clients"
+            android:label="Clients"
+            android:parentActivityName=".HomePage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomePage" />
+
+        </activity>
     </application>
 
 </manifest>
