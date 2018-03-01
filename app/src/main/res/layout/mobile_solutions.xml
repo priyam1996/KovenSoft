@@ -22,6 +22,6 @@
         android:layout_below="@id/imageMobile"
         android:layout_marginLeft="20sp"
         android:layout_marginRight="20sp"
-        tools:text="@string/mobile_description" />
+        android:text="@string/mobile_description" />
 
 </RelativeLayout>
