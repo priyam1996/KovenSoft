@@ -31,7 +31,8 @@
             android:name=".SolutionsActivity"
             android:label="Solutions"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ContactUs"></activity>
+        <activity android:name=".ContactUs" />
+        <activity android:name=".Clients"></activity>
     </application>
 
 </manifest>
