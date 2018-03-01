@@ -130,6 +130,9 @@ public class HomePage extends AppCompatActivity
 
         } else if (id == R.id.nav_clients) {
 
+            Intent clientIntent = new Intent(this,Clients.class);
+            startActivity(clientIntent);
+
         }else if (id == R.id.nav_contactus) {
 
             Intent contactIntent = new Intent(this,ContactUs.class);
