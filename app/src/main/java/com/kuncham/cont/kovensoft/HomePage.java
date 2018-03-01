@@ -71,7 +71,7 @@ public class HomePage extends AppCompatActivity
             @Override
             public void onClick(View v) {
 
-                Intent i=new Intent(HomePage.this,Aboutus.class);
+                Intent i=new Intent(HomePage.this,About.class);
                 startActivity(i);
             }
         });
