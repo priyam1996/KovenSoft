@@ -1,6 +1,7 @@
 package com.kuncham.cont.kovensoft;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -103,10 +104,14 @@ public class HomePage extends AppCompatActivity
         if (id == R.id.nav_home) {
             // Handle the camera action
         } else if (id == R.id.nav_aboutus) {
+            Intent aboutIntent = new Intent(this,About.class);
+            startActivity(aboutIntent);
 
         } else if (id == R.id.nav_services) {
 
         } else if (id == R.id.nav_solutions) {
+            Intent solutionsIntent = new Intent(this,SolutionsActivity.class);
+            startActivity(solutionsIntent);
 
         } else if (id == R.id.nav_clients) {
 
