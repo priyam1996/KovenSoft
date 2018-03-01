@@ -3,14 +3,11 @@ package com.kuncham.cont.kovensoft;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Aboutus extends AppCompatActivity {
+public class About extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_aboutus);
-
-
-
+        setContentView(R.layout.activity_about);
     }
 }

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kuncham.cont.kovensoft.About">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:id="@+id/image"
+        android:src="@drawable/abt"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about"
+        android:text="Our Company information"
+        android:textColor="#0a0a0a"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/image"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_content"
+        android:text="@string/about"
+        android:textColor="#0a0a0a"
+        android:layout_below="@id/about"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_content1"
+        android:text="@string/about1"
+        android:textColor="#0a0a0a"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/about_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_content2"
+        android:text="@string/about2"
+           android:textColor="#0a0a0a"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/about_content1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/organisation"
+        android:text="Our Organization We have"
+        android:textColor="#0a0a0a"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_below="@id/about_content2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/organisation1"
+        android:text="@string/oganisation"
+        android:textColor="#0a0a0a"
+        android:layout_below="@id/organisation"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/infocus"
+        android:text="In Focus"
+        android:textColor="#0a0a0a"
+        android:layout_below="@id/organisation1"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="85"
+        android:layout_marginTop="10dp"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:progressTint="#2d7da4"
+        android:layout_below="@id/infocus"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Integral"
+        android:text="Integral"
+        android:textColor="#0a0a0a"
+        android:layout_below="@id/pb"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <ProgressBar
+        android:id="@+id/pb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="95"
+        android:layout_marginTop="10dp"
+        android:progressTint="#6aa42f"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_below="@id/Integral"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/comitted"
+        android:text="Comitted"
+        android:textColor="#0a0a0a"
+        android:layout_below="@id/pb1"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+    <ProgressBar
+        android:id="@+id/pb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="80"
+        android:layout_marginTop="10dp"
+        android:progressTint="#ffcc33"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_below="@id/comitted"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/global"
+        android:text="Global"
+        android:textColor="#0a0a0a"
+        android:layout_below="@id/pb2"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <ProgressBar
+        android:id="@+id/pb3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="90"
+        android:layout_marginTop="10dp"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:progressTint="#db3615"
+        android:layout_below="@id/global"/>
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>

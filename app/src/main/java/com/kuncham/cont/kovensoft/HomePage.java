@@ -119,10 +119,14 @@ public class HomePage extends AppCompatActivity
         if (id == R.id.nav_home) {
             // Handle the camera action
         } else if (id == R.id.nav_aboutus) {
+            Intent aboutIntent = new Intent(this,About.class);
+            startActivity(aboutIntent);
 
         } else if (id == R.id.nav_services) {
 
         } else if (id == R.id.nav_solutions) {
+            Intent solutionsIntent = new Intent(this,SolutionsActivity.class);
+            startActivity(solutionsIntent);
 
         } else if (id == R.id.nav_clients) {
 

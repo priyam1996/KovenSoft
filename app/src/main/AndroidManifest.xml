@@ -19,8 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Aboutus" />
-        <activity android:name=".About"></activity>
+        <activity android:name=".About" />
+        <activity
+            android:name=".Services"
+            android:label="@string/title_activity_services"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
