@@ -11,10 +11,14 @@
     tools:context="com.kuncham.cont.kovensoft.About">
 
     <ImageView
-        android:layout_width="500dp"
-        android:layout_height="100dp"
         android:id="@+id/image"
-        android:src="@drawable/abt"/>
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/slider2"
+        android:layout_margin="5dp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,7 +34,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/about_content"
         android:text="@string/about"
-        android:textColor="#0a0a0a"
         android:layout_below="@id/about"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"/>
@@ -40,7 +43,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/about_content1"
         android:text="@string/about1"
-        android:textColor="#0a0a0a"
         android:layout_marginTop="10dp"
         android:layout_below="@id/about_content"
         android:layout_marginLeft="10dp"
@@ -52,7 +54,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/about_content2"
         android:text="@string/about2"
-           android:textColor="#0a0a0a"
         android:layout_marginTop="10dp"
         android:layout_below="@id/about_content1"
         android:layout_marginLeft="10dp"
@@ -63,9 +64,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/organisation"
         android:text="Our Organization We have"
-        android:textColor="#0a0a0a"
         android:layout_marginTop="10dp"
         android:textStyle="bold"
+        android:textColor="#0a0a0a"
         android:layout_below="@id/about_content2"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"/>
@@ -75,7 +76,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/organisation1"
         android:text="@string/oganisation"
-        android:textColor="#0a0a0a"
         android:layout_below="@id/organisation"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"/>
