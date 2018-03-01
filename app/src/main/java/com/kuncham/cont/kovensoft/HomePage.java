@@ -16,6 +16,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ViewFlipper;
 
 public class HomePage extends AppCompatActivity
@@ -24,12 +25,16 @@ public class HomePage extends AppCompatActivity
     private static final int SWIPE_THRESHOLD_VELOCITY = 200;
     private ViewFlipper mViewFlipper;
     private Context mContext;
+
+    Button read_more;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        read_more=(Button)findViewById(R.id.button);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -58,6 +63,16 @@ public class HomePage extends AppCompatActivity
             public boolean onTouch(final View view, final MotionEvent event) {
               //  detector.onTouchEvent(event);
                 return true;
+            }
+        });
+
+
+        read_more.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent i=new Intent(HomePage.this,Aboutus.class);
+                startActivity(i);
             }
         });
 
