@@ -152,4 +152,13 @@ We keep a closer eye of the changing world, anticipate needs and seize opportuni
         Training and development is a vital part of human resource development. It is assuming an ever-important role as a result of the advancement of technology that has led to increased competition, increased expectations of customer quality and service and a subsequent need to reduce costs. It is also more important globally to prepare workers for new jobs. In the current wording, we will focus more on the emerging need for training and development, its implications for individuals and employers.
     </string>
 
+    <string name="contact_info">Contact Info</string>
+    <string name="contact_image">Contact Head image</string>
+    <string name="contact_info_text">\t \t \t \t \t Thank you for your interest with Koven Soft Solutions. To get in touch with us kindly fill the form or find the contact information of our offices listed below.</string>
+    <string name="address">Office:#7,2nd Main Road, LakshmiNarayana Temple, Banglore-560037, Karnataka-India.</string>
+    <string name="number">+91 7676741812</string>
+    <string name="mail">info@kovensoft.com</string>
+    <string name="follow">Follow Us On</string>
+
+    <string name="client_image">We Give complete Satisfaction to our clients</string>
 </resources>
