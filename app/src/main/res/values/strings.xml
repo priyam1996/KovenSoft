@@ -65,5 +65,12 @@ We keep a closer eye of the changing world, anticipate needs and seize opportuni
         According to research by analysts, Enterprise Resource Planning (ERP) is not being used as widely as it should be.\n \n
         From the point of view of a company, the key objective of making investments in packaged applications
         is to derive benefits and business advantages \n</string>
+    <string name="contact_info">Contact Info</string>
+    <string name="contact_image">Contact Head image</string>
+    <string name="contact_info_text">\t \t \t \t \t Thank you for your interest with Koven Soft Solutions. To get in touch with us kindly fill the form or find the contact information of our offices listed below.</string>
+    <string name="address">Office:#7,2nd Main Road, LakshmiNarayana Temple, Banglore-560037, Karnataka-India.</string>
+    <string name="number">+91 7676741812</string>
+    <string name="mail">info@kovensoft.com</string>
+    <string name="follow">Follow Us On</string>
 
 </resources>
