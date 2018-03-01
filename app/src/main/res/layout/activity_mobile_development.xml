@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.kuncham.cont.kovensoft.Consulting">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:id="@+id/mobile_image"
+            android:src="@drawable/mobile"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mobile_content"
+            android:text="Mobile Development"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/mobile_image"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mobile_content1"
+            android:text="@string/mobile"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/mobile_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mobile_content2"
+            android:text="IPhone Development"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/mobile_content1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mobile_content3"
+            android:text="@string/Iphonedevelopment"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/mobile_content2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mobile_content4"
+            android:textStyle="bold"
+            android:text="Android based development"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/mobile_content3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mobile_content5"
+            android:text="@string/android"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/mobile_content4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mobile_content6"
+            android:text="Multimedia applications"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:layout_below="@id/mobile_content5"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mobile_content7"
+            android:text="@string/multimedia"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/mobile_content6"/>
+
+
+    </RelativeLayout>
+</ScrollView>
