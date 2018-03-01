@@ -53,7 +53,17 @@ We keep a closer eye of the changing world, anticipate needs and seize opportuni
         Green IT offers design, integration and management services for customers who require flexible,
         robust and resilient network infrastructures. Our end-to-end network integration solutions help
         customers with complex network upgrades and mergers, expansions, or new deployments involving routers,
-        switches, Firewalls, servers, and other network equipment.\n </string>
+        switches, Firewalls, servers, and other network equipment.\n \n</string>
     <string name="description_network1">NET OPTIMIZATION SOLUTION\nSCALABILITY\nAVAILABILITY\nSECURITY\nPERFORMANCE</string>
+    <string name="image_enterprise_description">Enterprise Solutions</string>
+    <string name="description_enterprise">Enterprise solutions are software applications that enable people
+        to access and manage real-time information and transaction processes throughout an organization.
+        Our business solutions help our customers achieve high performance.
+        Transaction Processing and Decision Support Systems form the backbone of Operations and Analysis.
+        To maintain and enhance their competitive advantage to provide better value to customers,
+        companies invest substantial capital and effort in creating these systems.\n \n
+        According to research by analysts, Enterprise Resource Planning (ERP) is not being used as widely as it should be.\n \n
+        From the point of view of a company, the key objective of making investments in packaged applications
+        is to derive benefits and business advantages \n</string>
 
 </resources>
