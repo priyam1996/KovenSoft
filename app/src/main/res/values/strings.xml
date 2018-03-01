@@ -53,25 +53,103 @@ We keep a closer eye of the changing world, anticipate needs and seize opportuni
         Green IT offers design, integration and management services for customers who require flexible,
         robust and resilient network infrastructures. Our end-to-end network integration solutions help
         customers with complex network upgrades and mergers, expansions, or new deployments involving routers,
-        switches, Firewalls, servers, and other network equipment.\n \n</string>
+        switches, Firewalls, servers, and other network equipment.\n </string>
     <string name="description_network1">NET OPTIMIZATION SOLUTION\nSCALABILITY\nAVAILABILITY\nSECURITY\nPERFORMANCE</string>
-    <string name="image_enterprise_description">Enterprise Solutions</string>
-    <string name="description_enterprise">Enterprise solutions are software applications that enable people
-        to access and manage real-time information and transaction processes throughout an organization.
-        Our business solutions help our customers achieve high performance.
-        Transaction Processing and Decision Support Systems form the backbone of Operations and Analysis.
-        To maintain and enhance their competitive advantage to provide better value to customers,
-        companies invest substantial capital and effort in creating these systems.\n \n
-        According to research by analysts, Enterprise Resource Planning (ERP) is not being used as widely as it should be.\n \n
-        From the point of view of a company, the key objective of making investments in packaged applications
-        is to derive benefits and business advantages \n</string>
-    <string name="contact_info">Contact Info</string>
-    <string name="contact_image">Contact Head image</string>
-    <string name="contact_info_text">\t \t \t \t \t Thank you for your interest with Koven Soft Solutions. To get in touch with us kindly fill the form or find the contact information of our offices listed below.</string>
-    <string name="address">Office:#7,2nd Main Road, LakshmiNarayana Temple, Banglore-560037, Karnataka-India.</string>
-    <string name="number">+91 7676741812</string>
-    <string name="mail">info@kovensoft.com</string>
-    <string name="follow">Follow Us On</string>
+    <string name="outsourcing">We offer customized outsourcing solutions beyond time and geographies to manage the HR operations of our clients. In this service support, our in-bound team assumes full human resource operations responsibilities of our clients, such as resume management, candidate selection, interview scheduling, boarding facilities, etc.
+        The teams are deployed both on-site and off-site to manage the client recruitment needs based on their culture and structure. Being part of the industry, we understand the world and culture of our customers. This gives us an influence to support the recruitment and evaluation of the appropriate types of applications. Our commitment to building a sustainable workforce structure has made us build long-term relationships with our customers.</string>
+    <string name="out">
+    We also have a unique proposition model that is termed as "pay for success" model that proposes zero responsibility on the clients. Under this model, the client is not responsible for any fixed amount, but can only pay when a potential candidate joins the organization.
+</string>
+    <string name="consult">
+        Companies today need to respond to changing market conditions with innovation and agility. Keeping ourselves ahead of that change and achieving long-term success requires continuous business transformation. Kovensoft Consulting Services provides integrated, end-to-end, integrated solutions and services to help your business transform with certainty.
+    </string>
+    <string name="consult1">
 
-    <string name="client_image">We Give complete Satisfaction to our clients</string>
+        We partner with you to understand and address your unique transformation imperatives. We work in transparent consultation with you to devise the best solutions in your class and define the best course of action to implement them throughout your organization. Our integrated IT and consulting services will provide continuity and consistency to your strategic programs.
+    </string>
+    <string name="consult2">
+        The global network delivery model enables rapid scaling of participation, from analysis to implementation. Our high caliber consultants have the competence to meet your local and global business requirements. Proven methodologies and factual approach: Our methodologies incorporate our best practices and are established for uniform processes and accelerated deliveries. Our research and knowledge databases strengthen our fact-based approach to deliver the best solutions in their class.
+    </string>
+    <string name="software">
+        Our software development process collects and translates business requirements into imaginative technology solutions that become reality with custom software development. Kovensoft development services offer efficient and reliable custom software systems, including mobile business applications, core and back-office IT solutions.
+
+
+    </string>
+    <string name="software1">
+        Kovensoft provides a complete spectrum of custom software engineering services:
+    </string>
+
+    <string name="software2">
+        Architecture Consulting and Design
+        Software development
+        Performance Engineering
+        Enterprise Application Development
+        Software quality assurance and testing
+        Post-Development Support and Maintenance
+    </string>
+
+    <string name="mobile">
+        In the current situation, where cell phones are no longer a basic gadget to send and receive calls and SMS, gadgets today has developed into a bright thin client capabilities of the rich customers. Nowadays gadgets can read web, play music and record active online and do numerous different exercises for you without using your PC...
+    </string>
+    <string name="Iphonedevelopment">IPhone App is the hot language in versatile figure. Iphone is a progressive phone with a large touch screen, an Ipod and fast web enabled skills. With the release of the programming industry Iphone saw a new beginning in improving portable applications, today IPhone is a financially savvy to convey different types of use is application real business CRM amusements widely used stage and Sensational.
+    </string>
+    <string name="android">Android is the most recent and most encouraging versatile processing stage offered by Google. Android offers open source coordination that has opened up a great opportunity to have tweaked apps on gadgets based on Android.</string>
+    <string name="multimedia">
+        ïƒ˜	Full mind location applications (maps and GPS enabled)
+        ïƒ˜	2D and 3D fun in light of custom libraries and Open GL
+        ïƒ˜	Business applications and web applications modified for Android.
+        ïƒ˜	Our proven transport model and management framework standard industry enterprise is reliably ensures that the highest point of their risk status and get quality advances in each transport. Our constant research and training improvement training enables our client to achieve the fastest market with wide offers.
+    </string>
+
+    <string name="cloudservice">
+        Kovensoft Services is notably positioned as the undisputed leader in the cloud infrastructure services space of India. In fact, with web-based provisioning and flexible administration and registration, we are one of the few players generally selected from now on to be able to convey the genuine strength of the cloud readily available. As the IT specialist organization in India, we have the aptitude, strength of cloud frameworks, we monitor the support of administrations and the ability to provide the entire IT base in the cloud.
+    </string>
+    <string name="cloudservice1">
+
+    1.Reducing capital requirements for new activities
+2.Buy and transport solid and adaptable servers
+3.Take advantage of a dynamic and versatile server and server system
+4.Develop and send new applications with less danger
+5.Eliminate intrinsic postpositions in corporate endorsement and procurement forms
+6.Minimize exorbitant downtime with greater transmission capacity and survival of processing assets
+
+
+</string>
+
+    <string name="cloudservice2">
+
+        Advantages of Cloud Computing Redundant Infrastructure in India Recover the disappointments of the computers in a matter of seconds thanks to the programmed components of automatic recovery of the Hidden High Availability (HA) database of VMware and the deactivation of assets.
+    </string>
+
+    <string name="cloudservice3">
+        Customer portal and fast provisioning Online access to manage and monitor your solution through valuable tools such as snapshots, resource performance graphs, alarms, booting, starting and stopping virtual machines, and fast provisioning of computer resources and software packages.
+
+    </string>
+
+    <string name="cloudservice4">
+    High Performance Storage Data is stored in a SAN against a local disk that provides reliability and better disk performance.
+</string>
+
+    <string name="testing">
+        Kovensoft has put together a remarkable QA agreement and test management offerings that are implemented to ensure that ISVs (Software Vendors) can deliver robust and reliable articles to the marketplace. Our administrations deal effectively with the ease of use, usefulness and enforcement tests of the parties to the agreement. We can help you with the entire article improvement lifecycle that extends from the needs stage, trial focus planning, device determination, code audits, building test suites, running tests.
+    </string>
+
+    <string name="testing1">
+        Regression tests
+        Manual and automated testing
+        Ad hoc tests.
+        Test of performance.
+        Load Test.
+        Compatibility Tests.
+        Configuration tests.
+        Installation tests.
+        Custom Scripts.
+        System Integration / Testing.
+        Early detection of deformities leading to decreased re-labor costs.
+    </string>
+
+    <string name="training">
+        Training and development is a vital part of human resource development. It is assuming an ever-important role as a result of the advancement of technology that has led to increased competition, increased expectations of customer quality and service and a subsequent need to reduce costs. It is also more important globally to prepare workers for new jobs. In the current wording, we will focus more on the emerging need for training and development, its implications for individuals and employers.
+    </string>
+
 </resources>
