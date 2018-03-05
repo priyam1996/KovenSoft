@@ -25,6 +25,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/testing_content"
             android:text="Testing"
+            android:textColor="#ff5733"
             android:textStyle="bold"
             android:layout_marginLeft="10dp"
             android:layout_below="@id/testing_image"/>
@@ -41,6 +42,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/testing_content2"
             android:text="Kovensoft Methodologies"
+            android:textColor="#ff5733"
             android:textStyle="bold"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="10dp"
