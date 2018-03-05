@@ -25,6 +25,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/mobile_content"
             android:text="Mobile Development"
+            android:textColor="#ff5733"
             android:textStyle="bold"
             android:layout_marginLeft="10dp"
             android:layout_below="@id/mobile_image"/>
@@ -41,6 +42,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/mobile_content2"
             android:text="IPhone Development"
+            android:textColor="#ff5733"
             android:textStyle="bold"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="10dp"
@@ -61,6 +63,7 @@
             android:id="@+id/mobile_content4"
             android:textStyle="bold"
             android:text="Android based development"
+            android:textColor="#ff5733"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="10dp"
             android:layout_below="@id/mobile_content3"/>
@@ -79,6 +82,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/mobile_content6"
             android:text="Multimedia applications"
+            android:textColor="#ff5733"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="10dp"
             android:textStyle="bold"
@@ -92,6 +96,7 @@
             android:text="@string/multimedia"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20sp"
             android:layout_below="@id/mobile_content6"/>
 
 

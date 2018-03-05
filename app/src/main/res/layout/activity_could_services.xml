@@ -13,10 +13,10 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="170dp"
+            android:layout_height="170sp"
             android:id="@+id/cloud_image"
             android:src="@drawable/cloud"
-            android:layout_margin="10dp"
+            android:layout_margin="10sp"
             android:scaleType="centerCrop"/>
 
 
@@ -25,25 +25,27 @@
             android:layout_height="wrap_content"
             android:id="@+id/cloud_content"
             android:text="Cloud Services"
+            android:textColor="#ff5733"
             android:textStyle="bold"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="10sp"
             android:layout_below="@id/cloud_image"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/cloud_content1"
             android:text="@string/cloudservice"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5sp"
+            android:layout_marginLeft="10sp"
             android:layout_below="@id/cloud_content"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/cloud_content2"
             android:text="Why use a cloud solution?"
+            android:textColor="#ff5733"
             android:textStyle="bold"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5sp"
+            android:layout_marginLeft="10sp"
             android:layout_below="@id/cloud_content1"/>
 
         <TextView
@@ -51,8 +53,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/cloud_content3"
             android:text="@string/cloudservice1"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5sp"
+            android:layout_marginLeft="10sp"
             android:layout_below="@id/cloud_content2"/>
 
         <TextView
@@ -60,8 +62,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/cloud_content4"
             android:text="@string/cloudservice2"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5sp"
+            android:layout_marginLeft="10sp"
             android:layout_below="@id/cloud_content3"/>
 
         <TextView
@@ -69,8 +71,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/cloud_content5"
             android:text="@string/cloudservice3"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5sp"
+            android:layout_marginLeft="10sp"
             android:layout_below="@id/cloud_content4"/>
 
         <TextView
@@ -78,8 +80,9 @@
             android:layout_height="wrap_content"
             android:id="@+id/cloud_content6"
             android:text="@string/cloudservice4"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginBottom="20sp"
             android:layout_below="@id/cloud_content5"/>
 
 
