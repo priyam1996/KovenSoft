@@ -20,6 +20,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/training_content"
         android:text="Training"
+        android:textColor="#ff5733"
         android:textStyle="bold"
         android:layout_marginLeft="10dp"
         android:layout_below="@id/training_image"/>
