@@ -19,6 +19,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/software_content"
             android:text="Software Development"
+            android:textColor="#ff5733"
             android:textStyle="bold"
             android:layout_marginLeft="10dp"
             android:layout_below="@id/software_image"/>
@@ -36,6 +37,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/software_content2"
         android:text="@string/software1"
+            android:textColor="#ff5733"
             android:textStyle="bold"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="10dp"
@@ -49,8 +51,6 @@
             android:layout_marginTop="5dp"
             android:layout_marginLeft="10dp"
             android:layout_below="@id/software_content2"/>
-
-
 
 
     </RelativeLayout>
