@@ -10,7 +10,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="20sp"
         android:contentDescription="@string/image_enterprise_description"
-        android:src="@drawable/erp" />
+        android:src="@drawable/erp"
+        android:background="#ffffff"/>
 
     <TextView
         android:id="@+id/descriptionEnterprise"
